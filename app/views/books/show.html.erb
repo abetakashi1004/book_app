@@ -1,0 +1,21 @@
+<body>
+   <div class="show">
+
+    <span><%= notice %></span>
+
+     <div class="show-title">
+         <h2>Title: </h2>
+         <p><%= @book.title %></p>
+     </div>
+     <div class="show-body">
+         <h2>Body: </h2>
+         <p><%= @book.body %></p>
+     </div>
+     <div class="show-bottom">
+         <%= link_to "Edit",edit_book_path(@book.id) %>
+         <p class="block1">|</p>
+         <%= link_to "Back",books_path %>
+     </div>
+
+   </div>
+</body>

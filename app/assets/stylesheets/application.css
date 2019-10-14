@@ -1,0 +1,119 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+*{
+	margin :0;
+}
+
+.home{
+	margin: 33px;
+}
+.home h2, .home span{
+	font-family: arial black;
+}
+.home h2{
+	font-size: 26px;
+}
+.home p{
+	margin: 33px;
+}
+.home p,.home a{
+	font-size: 13px;
+}
+.home a{
+	color: #666;
+}
+
+.index{
+	margin: 3% 5%;
+}
+td{
+	padding-right: 20px;
+}
+.index h2, .index thead{
+	font-family: arial black;
+}
+.index tbody, .index h4{ 
+	font-size: 13px;
+}
+.index a{
+	color: black;
+}
+.index table, .index h2{
+	padding-top: 12px;
+}
+.index input{
+	display: block;
+}
+.index h4{
+	padding-top: 8px;
+}
+
+.show h2, .show p{
+	font-size: 13px;
+}
+.show{
+	padding-top: 20px;
+	margin: 0 5%;
+}
+.show a ,.block1{
+	color: #666;
+	font-size: 13px;
+}
+.show-title,.show-body,.show-bottom{
+	padding-top: 40px;
+}
+.show-title h2, .show-title p, .show-body h2,.show-body p,.show-bottom a,.show-bottom p{
+	display: inline-block;
+	float: left;
+}
+.show span {
+	color: green;
+}
+
+.edit{
+	margin: 3% 5%;
+}
+.edit h2{
+	font-family: arial black;
+}
+.edit h2,.edit h4,.edit input{
+	display: block;
+}
+.edit h4{
+	padding-top: 8px;
+	font-size: 13px;
+}
+.edit a, .block2{
+	font-size: 13px;
+	color: #666;
+}
+.edit a ,.block2{
+	display: inline-block;
+	float: left;
+}
+.botan, .edit a, .block2{
+	padding-top: 10px;
+}
+
+#error_explanation{
+	color: red;
+	margin: 8px;
+}
+
+
+
+
